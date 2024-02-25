@@ -7,7 +7,7 @@ using MernisServiceReference;
 
 namespace Business.Concrete
 {
-    class PersonManager : IApplicantService
+    public class PersonManager : IApplicantService
     {
         public void ApplyForMask(Person person)
         {
